@@ -39,7 +39,7 @@ function Board(height, width) {
   this.numberOfObjects = 0;
   this.isObject = false;
   this.buttonsOn = false;
-  this.speed = "fast";
+  this.speed = "average";
 }
 
 Board.prototype.initialise = function() {
